@@ -4,15 +4,26 @@
   "prompts" : [
     {
       "key" : "packages",
-      "prompt" : "Include packages, angular cli, anuglar material,angular reactive forms "
+      "prompt" : "Include packages, angular cli, anuglar material,angular reactive forms"
     },
     {
       "key" : "layout",
-      "prompt" : "Has a top mat-toolbar with menu icon which toggles left sidenav between 200px width and 40px width"
-    }
+      "prompt" : "app should have a top mat-toolbar with menu icon which toggles left sidenav between 200px width and 40px width"
+    },
     {
       "key" : "components",
       "prompt" : "include all angular material components into a shared component and refer as needed"
-    } 
+    },
+    {
+      "key" : "components",
+      "prompt" : "create generic component called av-table which contains angular matrieal table, which populates array of 'data-transfer-object-class' and is should be pre populated with local hard coded data. and also needs to be sortable from all headers",
+      "knowledge" : [
+        { 
+          "type" : "data-transfer-object-class",
+          "content" : "{\"id\":5455815,\"name\":\"some text here\",\"isActive\":false,\"createdBy\":0,\"createdOn\":\"0001-01-01T00:00:00+00:00\",\"modifiedBy\":0,\"modifiedOn\":\"0001-01-01T00:00:00+00:00\"}"
+        }
+      ]
+    }
+    
   ]
 }
