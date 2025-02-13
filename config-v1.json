@@ -1,3 +1,18 @@
 {
-  "version": "latest"
+  "framework":"angular",
+  "version": "latest",
+  "prompts" : [
+    {
+      "key" : "packages",
+      "prompt" : "Include packages, angular cli, anuglar material,angular reactive forms "
+    },
+    {
+      "key" : "layout",
+      "prompt" : "Has a top mat-toolbar with menu icon which toggles left sidenav between 200px width and 40px width"
+    }
+    {
+      "key" : "components",
+      "prompt" : "include all angular material components into a shared component and refer as needed"
+    } 
+  ]
 }
